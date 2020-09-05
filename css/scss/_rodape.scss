@@ -1,0 +1,24 @@
+footer{
+  padding: 20px 0px;
+  background: $cinza;
+  @include box-shadow(0 0 0 10px $cinza);
+
+  p{
+    display: inline-block;
+    color: $bege-claro;
+    
+    @include d(s){
+      display: block;
+      text-align: center;
+    }
+  }
+
+  img{
+    float: right;
+
+    @include d(s){
+      float: none;
+      margin: 20px auto;
+    }
+  }
+}
